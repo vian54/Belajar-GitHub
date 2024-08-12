@@ -1,0 +1,23 @@
+package constants
+
+// app env
+const (
+	ENV_APP_NAME     = "APP_NAME"
+	ENV_APP_HOST     = "APP_HOST"
+	ENV_APP_PORT     = "APP_PORT"
+	ENV_APP_SECRET   = "APP_SECRET"
+	ENV_APP_ENV      = "APP_ENV"
+	ENV_APP_MAX_ROWS = "APP_MAX_ROWS_DATA"
+)
+
+const (
+	ENV_DB_DRIVER    = "DB_DRIVER"
+	ENV_DB_HOST      = "DB_HOST"
+	ENV_DB_PORT      = "DB_PORT"
+	ENV_DB_NAME      = "DB_NAME"
+	ENV_DB_USER      = "DB_USER"
+	ENV_DB_PASSWORD  = "DB_PASSWORD"
+	ENV_DB_IS_LOGGED = "DB_IS_LOGGED"
+
+	ENV_PAYMENT_SECRET = "PAYMENT_SECRET"
+)
